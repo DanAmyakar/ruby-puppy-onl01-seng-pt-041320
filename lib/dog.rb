@@ -11,4 +11,5 @@ class Dog
   def initialize
     @name = name
     @@all << name
+  end
 end
