@@ -8,7 +8,7 @@ class Dog
     @@all
   end
   
-  def initialize
+  def initialize(name)
     @name = name
     @@all << name
   end
