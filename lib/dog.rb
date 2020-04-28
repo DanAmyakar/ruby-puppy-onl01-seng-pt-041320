@@ -5,7 +5,7 @@ class Dog
   @@all = []
   
   def self.all
-    @@all
+    @@all.each {|dg| print dg}
   end
   
   def initialize(name)
